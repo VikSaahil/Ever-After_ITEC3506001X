@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 public class AdminPage {
     private Stage stage;
 
-    public AdminPage(Stage stage) {
+public AdminPage(Stage stage) {
         this.stage = stage;
         // Set window icon in constructor
         try {
@@ -96,7 +96,7 @@ public class AdminPage {
         buttonBox.setAlignment(Pos.CENTER);
         buttonBox.setPadding(new Insets(20));
 
-        // Create banner image
+    // Create banner image
         ImageView banner = new ImageView();
         try {
             // Replace with your actual banner image path
