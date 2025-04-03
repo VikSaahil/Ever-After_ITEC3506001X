@@ -164,8 +164,7 @@ public class CustomerPage {
         box.setMaxWidth(600);
         return box;
     }
-
-    private void showPaymentDialog(LocalDate weddingDate, String serviceType, 
+  private void showPaymentDialog(LocalDate weddingDate, String serviceType, 
                                  String theme, String requirements, TextArea calendarView) {
         Stage paymentStage = new Stage();
         paymentStage.setTitle("Payment Information");
@@ -243,7 +242,6 @@ public class CustomerPage {
         paymentStage.setScene(paymentScene);
         paymentStage.show();
     }
-
     private void showAlert(Alert.AlertType type, String title, String header, String content) {
         Alert alert = new Alert(type);
         alert.setTitle(title);
