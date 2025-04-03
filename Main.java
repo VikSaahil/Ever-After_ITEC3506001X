@@ -16,8 +16,7 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
 public class Main extends Application {
-
-    @Override
+ @Override
     public void start(Stage primaryStage) {
         // Set application window icon
         try {
@@ -27,10 +26,8 @@ public class Main extends Application {
         } catch (Exception e) {
             System.out.println("Couldn't load window icon: " + e.getMessage());
         }
-
         showLoginPage(primaryStage);
-    }
-
+    } 
     private void showLoginPage(Stage primaryStage) {
         primaryStage.setTitle("Wedding Planning System - Login");
 
