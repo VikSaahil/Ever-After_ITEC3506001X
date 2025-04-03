@@ -99,8 +99,7 @@ public class StaffPage {
         HBox buttonBox = new HBox(20);
         buttonBox.setAlignment(Pos.CENTER);
         buttonBox.getChildren().addAll(viewClientsBtn, addBookingBtn, viewCalendarBtn, viewReportsBtn);
-        
-        // Create calendar section
+                // Create calendar section
         Label calendarLabel = new Label("Event Calendar");
         calendarLabel.setStyle("-fx-font-size: 18px; -fx-font-weight: bold; -fx-padding: 0 0 10 0;");
         
@@ -151,9 +150,5 @@ public class StaffPage {
     private void logout() {
         stage.close();
         new Main().start(new Stage());
-    }
-
-    public void setOnHidden(Object object) {
-        // Can be implemented if needed
     }
 }
